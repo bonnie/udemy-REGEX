@@ -1,0 +1,20 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1_characters_and_quantities.js",
+  "scripts": {
+    "test": "mocha tests/*_test.js"
+  },
+  "author": "Bonnie Schulkin",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/doctest-js": "^0.1.0",
+    "doctest": "^0.17.1",
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {
+    "jsdoctest": "^1.7.1",
+    "mocha": "^8.1.3"
+  }
+}
