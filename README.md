@@ -1,5 +1,5 @@
 # Udemy Regular Expression Course Examples
-### Code to accompany the Udemy course https://www.udemy.com/regular-expressions-for-beginners-and-beyond-with-exercises
+### Code to accompany the Udemy course [Regular Expressions for Beginners and Beyond! With Exercises](https://www.udemy.com/course/regular-expressions-for-beginners-and-beyond-with-exercises/?referralCode=E977417AEEE052477854)
 
 # Exercises
 Exercises are meant to be done with Node 12.0.0+ or Python 3.8+. 
