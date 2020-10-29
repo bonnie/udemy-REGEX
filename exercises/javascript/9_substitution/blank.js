@@ -32,8 +32,15 @@ const htmlTagReplacement = '';
 // Exercise 38: Substitute any multiple whitespace
 // characters (including newlines) with a single
 // space character
-const multipleWhitespaceRegex = //;
-const multipleWhitespaceReplacement = '';
+// 
+// IMPORTANT NOTE: The engine that Udemy uses to compile its JavaScript code does not support
+// the 's' flag, so this exercise throws an error "SyntaxError: Invalid flag supplied to RegExp
+// constructor." Please skip this exercise in the Udemy code exercise platform, and instead check
+// your answer in the course repository. 
+// https://github.com/bonnie/udemy-regex-syntax-examples/tree/master/exercises/javascript/9_substitution
+// 
+// --------> const multipleWhitespaceRegex = //;
+// --------> const multipleWhitespaceReplacement = '';
 
 
 // Exercise 39: Strip off any whitespace characters
