@@ -39,4 +39,9 @@ export const viSwapRegex = /^\.(.*)\.swp$/mg;
 //   year=2020
 //   time=04:55:38
 //   message=This is a message
+
+// IMPORTANT NOTE: Udemy's code exercise engine is not capable of handling this
+// regular expression. If you would like to do this exercise, please check your answers
+// in the course repository. 
+// https://github.com/bonnie/udemy-regex-syntax-examples/tree/master/exercises/javascript/8_capture_groups
 export const extractLogPartsRegex = /^(?<day>\d\d)(?<month>\w{3})(?<year>\d{4}) (?<time>[\d:]{8}) (?<message>.*)$/mg

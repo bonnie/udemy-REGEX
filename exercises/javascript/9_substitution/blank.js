@@ -19,21 +19,21 @@
 //
 // NOTE: In this exercise, the string may contain text other
 // than the email address(es).
-export const emailRegex = //;
-export const emailReplacement = '';
+const emailRegex = //;
+const emailReplacement = '';
 
 // Exercise 37: Strip html tags out of text
 // For example, <b>bold statement</b> should become
 // "bold statement" (no quotes).
 // Note: strings may be multi-line
-export const htmlTagRegex = //;
-export const htmlTagReplacement = '';
+const htmlTagRegex = //;
+const htmlTagReplacement = '';
 
 // Exercise 38: Substitute any multiple whitespace
 // characters (including newlines) with a single
 // space character
-export const multipleWhitespaceRegex = //;
-export const multipleWhitespaceReplacement = '';
+const multipleWhitespaceRegex = //;
+const multipleWhitespaceReplacement = '';
 
 
 // Exercise 39: Strip off any whitespace characters
@@ -43,8 +43,8 @@ export const multipleWhitespaceReplacement = '';
 // Note: This one is tricky! How do you keep the "middle"
 // part from gobbling up the outer space, and yet
 // still respect spaces in the middle?
-export const outerWhitespaceRegex = //;
-export const outerWhitespaceReplacement = '';
+const outerWhitespaceRegex = //;
+const outerWhitespaceReplacement = '';
 
 // Exercise 40: Switch a list of names (separated by newlines)
 // from "first last" to "last, first".
@@ -64,8 +64,8 @@ export const outerWhitespaceReplacement = '';
 // Freeman, Morgan
 // Finch-Fletchley, Justin
 // O'Connor, Flannery
-export const nameSwitchRegex = //;
-export const nameSwitchReplacement = '';
+const nameSwitchRegex = //;
+const nameSwitchReplacement = '';
 
 // Exercise 41: Building on the last exercise: Put last name
 // first even if there are more than two words in the name
@@ -73,5 +73,5 @@ export const nameSwitchReplacement = '';
 // For example,
 //   Carlos Alberto Torres → Torres, Carlos Alberto
 //   Harriet Beecher Stowe → Stowe, Harriet Beecher
-export const multiNameSwitchRegex = //;
-export const multiNameSwitchReplacement = '';
+const multiNameSwitchRegex = //;
+const multiNameSwitchReplacement = '';

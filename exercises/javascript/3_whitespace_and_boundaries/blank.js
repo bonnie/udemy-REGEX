@@ -4,22 +4,22 @@
 // characters at the end, preparing to replace them
 // with an empty string. Contents of the string before
 // the spaces is not important
-export const trailingSpaceRegex = //;
+const trailingSpaceRegex = //;
 
 // Exercise 10: Match strings that contain two tabs in a row
 // anywhere in the string. Contents of the string are unimportant.
-export const twoConsecutiveTabsRegex = //;
+const twoConsecutiveTabsRegex = //;
 
 // Exercise 11: Match strings that contain two tabs, not
 // necessarily in a row, anywhere in the string.
 // Contents of the string are unimportant.
-export const twoTabsRegex = //;
+const twoTabsRegex = //;
 
 // Exercise 12: Match strings that start with at least
 // three digits from 0 to 5 (inclusive).
 // Contents of the string are unimportant.
-export const startWithThreeDigitsRegex = //;
+const startWithThreeDigitsRegex = //;
 
 // Exercise 13: Match entire strings that don’t contain
 // the letter E (capital or lowercase).
-export const stringsWithoutERegex = //;
+const stringsWithoutERegex = //;

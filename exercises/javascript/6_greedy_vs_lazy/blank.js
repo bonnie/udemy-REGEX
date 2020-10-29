@@ -12,13 +12,13 @@
 // But I have promises to keep,
 // And miles to go before I sleep,
 // And miles to go before I sleep.
-export const shortestFirstAndBookendRegex = //;
+const shortestFirstAndBookendRegex = //;
 
 // Exercise 26: Find as many non-overlapping strings as you
 // can that start with ‘s’ (no quotes, case sensitive) and ends
 // with ‘e’ (no quotes). Matched strings should be all on the
 // same line.
-export const nonOverlappingSeStringsRegex = //;
+const nonOverlappingSeStringsRegex = //;
 
 // Exercise 27: In an HTML string, find all the elements
 // (including surrounding tags). That is, find strings that start
@@ -29,11 +29,11 @@ export const nonOverlappingSeStringsRegex = //;
 // NOTE: You don't yet have the tools to deal with nested
 // elements (like <p>Don't you just <b>love</b> regexes?</p>)
 // We will discuss this case in the next lecture on groups!
-export const htmlElementRegex = //;
+const htmlElementRegex = //;
 
 // Exercise 28: For an added challenge, try the last exercise,
 // but also capture elements that only have *only one tag* that
 // ends with /> (because the element has no contents to put
 // between tags, for example,
 // <img src=”http://placekitten.com/200/300” /> )
-export const htmlElementIncludingSingleTagsRegex = //;
+const htmlElementIncludingSingleTagsRegex = //;

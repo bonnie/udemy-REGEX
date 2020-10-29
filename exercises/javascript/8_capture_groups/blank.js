@@ -8,14 +8,14 @@
 // Exercise 33: Match strings that start and end with the same word.
 // We do want to capture the word.
 // Assume all strings do not contain newlines.
-export const wordBookendRegex = //;
+const wordBookendRegex = //;
 
 // Exercise 34: Given a list of files in a directory (separated
 // by newlines), identify which files have a vi swap file
 // vi swap files look like this: .filename.swp
 // So if there were a file in the directory called .favoriteRegexes.txt.swp
 // You would want to include favoriteRegexes.txt in your results
-export const viSwapRegex = //;
+const viSwapRegex = //;
 
 // Exercise 35: Given data shaped like this:
 //   03Sep2020 04:55:38 This is a message
@@ -38,5 +38,10 @@ export const viSwapRegex = //;
 //   year=2020
 //   time=04:55:38
 //   message=This is a message
-// SYNTAX: In python, named groups are designated by (?P<>)
-export const extractLogPartsRegex = //;
+// SYNTAX: In JavaScript, named groups are designated by (?<>)
+
+// IMPORTANT NOTE: Udemy's code exercise engine is not capable of handling this
+// regular expression. If you would like to do this exercise, please check your answers
+// in the course repository. 
+// https://github.com/bonnie/udemy-regex-syntax-examples/tree/master/exercises/javascript/8_capture_groups
+const extractLogPartsRegex = //;

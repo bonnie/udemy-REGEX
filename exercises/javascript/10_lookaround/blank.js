@@ -33,7 +33,7 @@
 // 9_lookaround git:(master) $ ls
 // __pycache__ evaluate.py
 // 9_lookaround git:(master) $ touch lookaround.py
-export const commandsRegex = //;
+const commandsRegex = //;
 
 // Exercise 43: There's a document formatted so that each
 // name is on its own line preceded by "Name: " (no quotes).
@@ -45,7 +45,7 @@ export const commandsRegex = //;
 //
 // Name: Muhammad Ali
 // Email: muhammad.ali@notarealemaildomain.com
-export const nameRegex = //;
+const nameRegex = //;
 
 // Exercise 44: You have a string containing tags,
 // separated by commas. Each tag contains only letters,
@@ -56,12 +56,12 @@ export const nameRegex = //;
 //
 // Example tag string:
 // a_tag, meta__another_tag, meta__third_tag, fourth_tag
-export const metaTagRegex = //;
+const metaTagRegex = //;
 
 // Exercise 45: Find each word directly before a semicolon
 // in a block of text (but do not capture the semicolon).
 // Text may be multi-line.
-export const wordBeforeSemiRegex = //;
+const wordBeforeSemiRegex = //;
 
 // Exercise 46: Given a list of file names, capture files
 // that contain `py` (without quotes) but NOT at the end of
@@ -77,4 +77,4 @@ export const wordBeforeSemiRegex = //;
 // pyrite.go
 //
 // Output: happy.js, pyrite.go
-export const nonPyfileRegex = //;
+const nonPyfileRegex = //;
