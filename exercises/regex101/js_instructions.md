@@ -1,0 +1,9 @@
+- Exercise numbering continues from last exercises. 
+- Write your regular expressions within the `//` delimiters.
+  - Exercise: `/a+/`
+- Add flags after the last / in the regular expression.
+  - Exercise: `/a+/gm`
+- Group contents _within the regex_ can be accessed with the syntax `\groupnumber`
+  - Exercise: to reference the first group, use `\1`
+- Group contents _within the replacement string_ can be accessed with the syntax `$groupnumber`
+  - for example, to reference the first group within the replacement, use `$1`
