@@ -4,7 +4,7 @@
 # and an optional exclamation point (!) at the end
 yeehaw_regex = r'yee+haw!?'
 
-# Exercise 2: Match the word “hiss” (without quotes), followed by zero
+# Exercise 2: Match the word “hiss” (without quotes), followed by two
 # or more s’s, in the most readable form you can.
 hiss_regex = r'hiss+'
 

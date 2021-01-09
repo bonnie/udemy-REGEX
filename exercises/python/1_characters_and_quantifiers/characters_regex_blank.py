@@ -4,7 +4,7 @@
 # and an optional exclamation point (!) at the end
 yeehaw_regex = r''
 
-# Exercise 2: Match the word “hiss”, followed by zero or more s’s
+# Exercise 2: Match the word “hiss”, followed by two or more s’s
 # what's the most readable way to write this?
 hiss_regex = r''
 

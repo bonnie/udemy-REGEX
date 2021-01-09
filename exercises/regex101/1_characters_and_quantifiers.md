@@ -14,7 +14,7 @@ Match the string `yeehaw` with 2 or more es after the `y`, and an optional excla
 
 ###
 ### 👉 Exercise 2
-Match the word `hiss`, followed by zero or more `s`, in the most readable form you can.
+Match the word `hiss`, followed by two or more `s`, in the most readable form you can.
    - `hiss` should match
    - `hisssss` should match
    - `his` should **not** match
