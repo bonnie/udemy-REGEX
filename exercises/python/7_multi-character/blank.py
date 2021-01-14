@@ -29,7 +29,6 @@ playing_card_regex = r''
 #
 # alphabetical hex digits can be lower or uppercase
 # The hex string should comprise the entire string.
-# No need to capture the hex digits as a group
 hex_string_regex = r''
 
 # Exercise 32: In a log file, parse out all lines that contain

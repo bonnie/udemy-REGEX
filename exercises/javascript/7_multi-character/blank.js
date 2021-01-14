@@ -22,7 +22,6 @@ const playingCardRegex = //;
 // 
 // alphabetical hex digits can be lower or uppercase
 // The hex string should comprise the entire string.
-// No need to capture the hex digits as a group
 const hexStringRegex = //;
 
 // Exercise 32: In a log file, parse out all lines that contain

@@ -29,8 +29,7 @@ playing_card_regex = r'^([2-9JQKA]|10) of (heart|spade|diamond|club)s$'
 #
 # alphabetical hex digits can be lower or uppercase
 # The hex string should comprise the entire string.
-# No need to capture the hex digits as a group
-hex_string_regex = r'(?i)^#(?:[\dA-F]{3}){1,2}$'
+hex_string_regex = r'(?i)^#([\dA-F]{3}){1,2}$'
 
 # Exercise 32: In a log file, parse out all lines that contain
 # `ERROR` or `FATAL` (no quotes). No need to capture which one

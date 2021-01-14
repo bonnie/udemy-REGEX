@@ -34,7 +34,7 @@ Test whether a string is a valid hex web color:
 - then contain 3 or 6 (but not 4 or 5) hex digits (https://en.wikipedia.org/wiki/Hexadecimal)
 - alphabetical hex digits can be lower or uppercase
 
-The hex string should comprise the entire string. No need to capture the hex digits as a group.
+The hex string should comprise the entire string.
 
   - `#ab4` should match
   - `#AB4B72` should match
