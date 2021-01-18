@@ -98,7 +98,7 @@ Find each word directly before a semicolon (`;`) in a block of text (but do not 
 
 ###
 ### 👉 Exercise 46
-Given a list of file names, capture files that contain `py` but not at the end of the string (that is, not python files). Hint: use negative lookbehind from the end of the string).
+Given a list of file names, capture files that contain `py` but not at the end of the string (that is, not python files). Hint: use negative lookbehind from the end of the string.
 
   - ```
     happy.js
