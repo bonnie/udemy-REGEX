@@ -8,8 +8,9 @@ export const binaryRegex = /[01]+/;
 // from this collection of letters: AEIOUHKLMNPW
 // Apostrophe is an option for all but the first letter.
 // First letter can be lowercase or capital; other
-// letters must be lowercase
-export const hawaiianRegex = /[AEIOUHKLMNPWaeiouhklmnpw][aeiouhklmnpw\']+/;
+// letters must be lowercase. The word must contain one or
+// more letters.
+export const hawaiianRegex = /[AEIOUHKLMNPWaeiouhklmnpw][aeiouhklmnpw\']*/;
 
 // Exercise 7: Match a telephone number of the format 555-555-5555
 // (where each of the 5s could be any number)

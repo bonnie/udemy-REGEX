@@ -8,7 +8,8 @@ const binaryRegex = //;
 // from this collection of letters: AEIOUHKLMNPW
 // Apostrophe is an option for all but the first letter.
 // First letter can be lowercase or capital; other
-// letters must be lowercase
+// letters must be lowercase. The word must contain one or
+// more letter.
 const hawaiianRegex = //;
 
 // Exercise 7: Match a telephone number of the format 555-555-5555
