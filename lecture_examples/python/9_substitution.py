@@ -63,7 +63,7 @@ def remove_asterisks(string):
     """Return the string with any asterisks (*) removed.
 
     >>> remove_asterisks('Now _this_ is a *workout* for your brain!')
-    'Now this is a workout for your brain!'
+    'Now _this_ is a workout for your brain!'
 
     >>> remove_asterisks('No asterisks here.')
     'No asterisks here.'
