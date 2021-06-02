@@ -4,7 +4,7 @@
 // and an optional exclamation point (!) at the end
 export const yeehawRegex = /yee+haw!?/;
 
-// Exercise 2: Match the word “hiss”, followed by two or more s’s
+// Exercise 2: Match the word “hi”, followed by two or more s’s
 // what's the most readable way to write this?
 export const hissRegex = /hiss+/;
 
