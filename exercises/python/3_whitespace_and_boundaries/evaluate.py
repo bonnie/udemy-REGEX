@@ -166,10 +166,10 @@ class EvaluateThreeDigitStart(TestCase):
 class EvaluateStringsWithoutE(TestCase):
 
     def test_regex(self):
-        matches = re.search(strings_without_e_regex, 'Regular Expressions')
+        matches = re.search(strings_without_e_regex, 'Expressions')
         self.assertIsNone(
             matches,
-            'strings_without_e_regex matched "Regular Expressions" when it should not have.'
+            'strings_without_e_regex matched "Expressions" when it should not have.'
         )
 
     def test_python(self):
@@ -184,6 +184,13 @@ class EvaluateStringsWithoutE(TestCase):
         self.assertIsNone(
             matches,
             'strings_without_e_regex matched "unique New York" when it should not have.'
+        )
+
+    def test_lol(self):
+        matches = re.search(strings_without_e_regex, 'lol')
+        self.assertIsNone(
+            matches,
+            'strings_without_e_regex matched "lol" when it should not have.'
         )
 
     def test_whazzup(self):
