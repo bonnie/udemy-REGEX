@@ -18,7 +18,7 @@ Match all strings with one or more space characters at the end, preparing to rep
 ### 👉 Exercise 10
 
 Match strings that contain two tabs in a row anywhere in the string. Contents of the string are unimportant.
-**Note: for all the Exercises, `\t` is an actual tab character. You should erase it and type a tab character from your keyboard in its place in regex101**
+**Note: for all the Exercises, `\t` is an actual tab character. You should copy the text below into a text editor, type a tab character from your keyboard in place of all any `\t` characters, and then paste in regex101.**
 
 - `tab\t\ttab` should match
 - `t\ttwotabs` should match
@@ -32,7 +32,7 @@ Match strings that contain two tabs in a row anywhere in the string. Contents of
 ### 👉 Exercise 11
 
 Match strings that contain two tabs, not necessarily in a row, anywhere in the string. Contents of the string are unimportant.
-**Note: for all the Exercises, `\t` is an actual tab character. You should erase it and type a tab character from your keyboard in its place in regex101**
+**Note: for all the Exercises, `\t` is an actual tab character. You should copy the text below into a text editor, type a tab character from your keyboard in place of all any `\t` characters, and then paste in regex101.**
 
 - `\tseparated\ttabs` should match
 - `tab\t\ttab` should match
