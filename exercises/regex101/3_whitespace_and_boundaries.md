@@ -21,7 +21,7 @@ Match strings that contain two tabs in a row anywhere in the string. Contents of
 **Note: for all the Exercises, `\t` is an actual tab character. You should copy the text below into a text editor, type a tab character from your keyboard in place of all any `\t` characters, and then paste in regex101.**
 
 - `tab\t\ttab` should match
-- `t\ttwotabs` should match
+- `\t\ttwotabs` should match
 - `tabs\t\t\t` should match
 - `one\ttab` should **not** match
 - `no tabs` should **not** match
@@ -57,7 +57,7 @@ Match strings that start with at least three digits from `0` to `5` (inclusive).
 
 ### 👉 Exercise 13
 
-Match entire strings that don’t contain the letter `E` (capital or lowercase).
+Match entire strings that are six characters or longer and don’t contain the letter `E` (capital or lowercase).
 
 - `Python` should match
 - `Whazzup????` should match
