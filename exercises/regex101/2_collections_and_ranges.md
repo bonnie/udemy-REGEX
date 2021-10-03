@@ -46,5 +46,5 @@ Match strings that are at least six characters and don’t contain the letter `A
 
 - `Python` should match
 - `unique New York` should match
-- `Regular Expressions` should **not** match
+- `Regular Expressions` should **not** match entire string
 - `ALOHA` should **not** match
