@@ -18,7 +18,11 @@
 # the he / hey part.
 he_hey_regex = r'(?i)hey?'
 
-# Exercise 20: Given this block of text (the last four
+# Exercise 20: Capture all the words that start with "se"
+# (without quotes) in a string (case insensitive)
+se_start_regex = r'(?i)\bse\w+\b'
+
+# Exercise 21: Given this block of text (the last four
 # lines of Robert Frost’s Stopping by the Woods on a
 # Snowy Evening), find all the lines that end with eep.
 # (including the period). Capture the entire line.
@@ -29,24 +33,20 @@ he_hey_regex = r'(?i)hey?'
 # And miles to go before I sleep.
 eep_regex = r'(?m)^.*eep\.$'
 
-# Exercise 21: Using the same poem lines as above, find only the
+# Exercise 22: Using the same poem lines as above, find only the
 # first phrase on a single line that starts with "to" and
 # ends with "eep" (without quotes).
 to_eep_regex = r'to.*eep'
 
-# Exercise 22: Using the same poem lines as above, capture only
+# Exercise 23: Using the same poem lines as above, capture only
 # the first word that starts with an a (it could be a capital
 # or lower case a)
 first_a_regex = r'(?i)a\w+\b'
 
-# Exercise 23: Using the same poem lines as above, find the first
+# Exercise 24: Using the same poem lines as above, find the first
 # phrase that starts and ends with "and" (no quotes, case
 # doesn’t matter). The phrase may span multiple lines.
 #
 # Want to know how to find the *shortest* first phrase? That's
 # next lecture: greedy vs lazy!
 and_bookends_regex = r'(?si)and.*and'
-
-# Exercise 24: Capture all the words that start with "se"
-# (without quotes) in a string (case insensitive)
-se_start_regex = r'(?i)\bse\w+\b'

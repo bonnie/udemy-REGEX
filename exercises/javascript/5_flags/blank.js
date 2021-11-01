@@ -8,7 +8,11 @@
 // the he / hey part.
 const heHeyRegex = //;
 
-// Exercise 20: Given this block of text (the last four
+// Exercise 20: Capture all the words that start with "se"
+// (without quotes) in a string (case insensitive)
+const seStartRegex = //;
+
+// Exercise 21: Given this block of text (the last four
 // lines of Robert Frost’s Stopping by the Woods on a
 // Snowy Evening), find all the lines that end with eep.
 // (including the period). Capture the entire line.
@@ -24,12 +28,12 @@ const eepRegex = //;
 // ends with "eep" (without quotes).
 const toEepRegex = //;
 
-// Exercise 22: Using the same poem lines as above, capture only
+// Exercise 23: Using the same poem lines as above, capture only
 // the first word that starts with an a (it could be a capital
 // or lower case a)
 const firstARegex = //;
 
-// Exercise 23: 
+// Exercise 24: 
 // IMPORTANT NOTE: The engine that Udemy uses to compile its JavaScript code does not support
 // the 's' flag, so this exercise throws an error "SyntaxError: Invalid flag supplied to RegExp
 // constructor." Please skip this exercise in the Udemy code exercise platform, and instead check
@@ -44,6 +48,3 @@ const firstARegex = //;
 // next lecture: greedy vs lazy!
 const andBookendsRegex = //;
 
-// Exercise 24: Capture all the words that start with "se"
-// (without quotes) in a string (case insensitive)
-const seStartRegex = //;

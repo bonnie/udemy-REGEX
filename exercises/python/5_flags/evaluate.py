@@ -75,6 +75,35 @@ class EvaluateHeHey(TestCase):
             should_not_have_matched(self.regex_name, input_string)
         )
 
+class EvaluateSeStart(TestCase):
+    regex_name = 'se_start_regex'
+
+    def test_tongue_twister(self):
+        input_string = 'She sells seashells by the seashore'
+        expected_match = ['sells', 'seashells', 'seashore']
+        matches = re.findall(se_start_regex, input_string)
+        self.assertEqual(
+            matches,
+            expected_match,
+            should_have_matched(self.regex_name, input_string, expected_match))
+
+    def test_no_matches(self):
+        input_string = 'Noses smell.'
+        expected_match = []
+        matches = re.findall(se_start_regex, input_string)
+        self.assertEqual(
+            matches,
+            expected_match,
+            should_have_matched(self.regex_name, input_string, expected_match))
+
+    def test_capitalization(self):
+        input_string = 'Sean, see if you can search for Selena.'
+        expected_match = ['Sean', 'see', 'search', 'Selena']
+        matches = re.findall(se_start_regex, input_string)
+        self.assertEqual(
+            matches,
+            expected_match,
+            should_have_matched(self.regex_name, input_string, expected_match))
 
 class EvaluateFrostPoem(TestCase):
 
@@ -113,33 +142,3 @@ And"""
             expected_match,
             should_have_matched('and_bookends_regex', frost_poem, expected_match))
 
-
-class EvaluateSeStart(TestCase):
-    regex_name = 'se_start_regex'
-
-    def test_tongue_twister(self):
-        input_string = 'She sells seashells by the seashore'
-        expected_match = ['sells', 'seashells', 'seashore']
-        matches = re.findall(se_start_regex, input_string)
-        self.assertEqual(
-            matches,
-            expected_match,
-            should_have_matched(self.regex_name, input_string, expected_match))
-
-    def test_no_matches(self):
-        input_string = 'Noses smell.'
-        expected_match = []
-        matches = re.findall(se_start_regex, input_string)
-        self.assertEqual(
-            matches,
-            expected_match,
-            should_have_matched(self.regex_name, input_string, expected_match))
-
-    def test_capitalization(self):
-        input_string = 'Sean, see if you can search for Selena.'
-        expected_match = ['Sean', 'see', 'search', 'Selena']
-        matches = re.findall(se_start_regex, input_string)
-        self.assertEqual(
-            matches,
-            expected_match,
-            should_have_matched(self.regex_name, input_string, expected_match))
