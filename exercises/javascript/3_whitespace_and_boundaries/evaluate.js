@@ -100,6 +100,6 @@ describe("EvaluateStringsWithoutE", function () {
     expect(stringsWithoutERegex.test("Whazzup????")).toBe(true);
   });
   it("matches empty", function () {
-    expect(stringsWithoutERegex.test("")).toBe(true);
+    expect(stringsWithoutERegex.test("")).toBe(false);
   });
 });
