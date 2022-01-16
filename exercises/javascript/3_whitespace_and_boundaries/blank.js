@@ -20,6 +20,6 @@ const twoTabsRegex = //;
 // Contents of the string are unimportant.
 const startWithThreeDigitsRegex = //;
 
-// Exercise 13: Match entire strings that don’t contain
-// the letter E (capital or lowercase).
+// Match entire strings that are six characters or longer and
+// don't contain the letter `E` (capital or lowercase)
 const stringsWithoutERegex = //;
