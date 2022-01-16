@@ -202,7 +202,7 @@ class EvaluateStringsWithoutE(TestCase):
 
     def test_empty(self):
         matches = re.search(strings_without_e_regex, '')
-        self.assertIsNotNone(
+        self.assertIsNone(
             matches,
-            'strings_without_e_regex did not match an empty string when it should have.'
+            'strings_without_e_regex matched an empty string when it should not have.'
         )
