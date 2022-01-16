@@ -5,7 +5,7 @@
 
 // Exercise 29: Match strings that contain either `puppy` or
 // `puppies` (no quotes, case sensitive)
-const puppyOrPuppiesRegex = /pupp(y|ies)/;
+export const puppyOrPuppiesRegex = /pupp(y|ies)/;
 
 // Exercise 30: Match a string whose only contents represent
 // a playing card. This would be the card number, which is
@@ -14,15 +14,16 @@ const puppyOrPuppiesRegex = /pupp(y|ies)/;
 // - the word `of` (without the quotes)
 // - a space character
 // - the suit (hearts, spades, diamonds, or clubs)
-const playingCardRegex = /^([2-9JQKA]|10) of (heart|spade|diamond|club)s$/;
+export const playingCardRegex =
+  /^([2-9JQKA]|10) of (heart|spade|diamond|club)s$/;
 
 // Exercise 31: Test whether a string is a valid hex web color:
 // The string must start with a `#` (no quotes)
 // then contain 3 or 6 (but not 4 or 5) hex digits
-// 
+//
 // alphabetical hex digits can be lower or uppercase
 // The hex string should comprise the entire string.
-const hexStringRegex = /^#([\dA-F]{3}){1,2}$/i;
+export const hexStringRegex = /^#([\dA-F]{3}){1,2}$/i;
 
 // Exercise 32: In a log file, parse out all lines that contain
 // `ERROR` or `FATAL` (no quotes). No need to capture which one
@@ -37,5 +38,4 @@ const hexStringRegex = /^#([\dA-F]{3}){1,2}$/i;
 // 2012-02-03 18:35:34 SampleClass0 [ERROR] incorrect id  1886438513
 // 2012-02-03 18:35:34 SampleClass9 [TRACE] verbose detail for id 438634209
 // 2012-02-03 18:35:34 SampleClass8 [DEBUG] detail for id 2074121310
-const errorFatalRegex = /^.*(?:ERROR|FATAL).*$/mg;
-
+export const errorFatalRegex = /^.*(?:ERROR|FATAL).*$/gm;
