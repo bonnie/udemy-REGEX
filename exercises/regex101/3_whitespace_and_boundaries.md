@@ -36,7 +36,7 @@ Match strings that contain two tabs, not necessarily in a row, anywhere in the s
 
 - `\tseparated\ttabs` should match
 - `tab\t\ttab` should match
-- `t\ttwotabs` should match
+- `\t\ttwotabs` should match
 - `\tta\tb\ts` should match
 - `one\ttab` should **not** match
 - `no tabs` should **not** match
