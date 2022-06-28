@@ -36,7 +36,7 @@ non_overlapping_se_strings_regex = r's.*?e'
 # NOTE: You don't yet have the tools to deal with nested
 # elements (like <p>Don't you just <b>love</b> regexes?</p>)
 # We will discuss this case in the next lecture on groups!
-html_element_regex = r'(?m)<.+?>.*?<\/.+?>'
+html_element_regex = r'(?m)<.+?>.*?</.+?>'
 
 # Exercise 28: For an added challenge, try the last exercise,
 # but also capture elements that only have *only one tag* that
