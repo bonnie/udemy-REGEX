@@ -15,19 +15,31 @@ And miles to go before I sleep,
 And miles to go before I sleep.
 ```
 
+- should match
+
+  ```
+  and deep,
+  But I have promises to keep,
+  And
+  ```
+
 ###
 
 ### 👉 Exercise 26
 
 Find as many non-overlapping strings as you can that start with `s` (case sensitive) and end with `e`. Strings should be all on the same line.
 
-- should match
+- this string:
 
-```
-and deep,
-But I have promises to keep,
-And
-```
+  ```
+  She sells seashells by the seashore
+  ```
+
+  should return these matches:
+
+  ```
+  ['se', 's se', 'she', 's by the', 'se', 'shore']
+  ```
 
 ###
 
