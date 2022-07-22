@@ -41,7 +41,7 @@ to_eep_regex = r'to.*eep'
 # Exercise 23: Using the same poem lines as above, capture only
 # the first word that starts with an a (it could be a capital
 # or lower case a)
-first_a_regex = r'(?i)a\w+\b'
+first_a_regex = r'(?i)\ba\w+'
 
 # Exercise 24: Using the same poem lines as above, find the first
 # phrase that starts and ends with "and" (no quotes, case

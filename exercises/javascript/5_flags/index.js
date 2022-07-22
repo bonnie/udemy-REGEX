@@ -31,7 +31,7 @@ export const toEepRegex = /to.*eep/;
 // Exercise 23: Using the same poem lines as above, capture only
 // the first word that starts with an a (it could be a capital
 // or lower case a)
-export const firstARegex = /a\w+\b/i;
+export const firstARegex = /\ba\w+/i;
 
 // Exercise 24: Using the same poem lines as above, find the first
 // phrase that starts and ends with "and" (no quotes, case
