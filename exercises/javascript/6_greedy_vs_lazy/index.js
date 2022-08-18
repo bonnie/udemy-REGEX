@@ -12,7 +12,7 @@
 // But I have promises to keep,
 // And miles to go before I sleep,
 // And miles to go before I sleep.
-export const shortestFirstAndBookendRegex = /and.*?and/si;
+export const shortestFirstAndBookendRegex = /and.*?and/is;
 
 // Exercise 26: Find as many non-overlapping strings as you
 // can that start with ‘s’ (no quotes, case sensitive) and ends
@@ -36,4 +36,4 @@ export const htmlElementRegex = /<.+?>.*?<\/.+?>/gm;
 // ends with /> (because the element has no contents to put
 // between tags, for example,
 // <img src=”http://placekitten.com/200/300” /> )
-export const htmlElementIncludingSingleTagsRegex = /<.+?>?.*?<?\/.+?>/gm;
+export const htmlElementIncludingSingleTagsRegex = /<.+?>?.*?<?\/.*?>/gm;

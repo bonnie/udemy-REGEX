@@ -43,4 +43,4 @@ html_element_regex = r'(?m)<.+?>.*?</.+?>'
 # ends with /> (because the element has no contents to put
 # between tags, for example,
 # <img src=”http://placekitten.com/200/300” /> )
-html_element_including_single_tags_regex = r'(?m)<.+?>?.*?<?/.+?>'
+html_element_including_single_tags_regex = r'(?m)<.+?>?.*?<?/.*?>'

@@ -165,10 +165,11 @@ class EvaluateHtmlRegexIncludingSingleTag(TestCase):
             should_not_have_matched(self.regex_name, input_string))
 
     def test_single_tag(self):
-        input_string = """<h1>Regular Expressions</h1>
+        input_string = """<h1>Regular Expressions</h1><hr />
     <img src=”http://placekitten.com/200/300” />"""
         expected_match = [
             '<h1>Regular Expressions</h1>',
+            '<hr />',
             '<img src=”http://placekitten.com/200/300” />'
         ]
         matches = re.findall(html_element_including_single_tags_regex, input_string)

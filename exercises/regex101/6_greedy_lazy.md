@@ -69,13 +69,15 @@ Note: You don't yet have the tools to deal with nested elements (like `<p>Don't 
 
 ### 👉 Exercise 28
 
-For an added challenge, try the last exercise, but also capture elements that only have only one tag that ends with `/>` (because the element has no contents to put between tags, for example, `<img src="http://placekitten.com/200/300" />` ).
+For an added challenge, try the last exercise, but also capture elements that only have only one tag that ends with `/>` (because the element has no contents to put between tags, for example, `<img src="http://placekitten.com/200/300" />` or `<hr />`).
 
 - should have the same matches / non-matches as all of the above
 - ```
   <h1>Regular Expressions</h1>
+  <hr />
   <img src=”http://placekitten.com/200/300” />
   ```
   should match
   - `<h1>Regular Expressions</h1>`
+  - `<hr />`
   - `<img src=”http://placekitten.com/200/300” />`
