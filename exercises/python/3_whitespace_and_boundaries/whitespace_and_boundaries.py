@@ -6,11 +6,11 @@
 # the spaces is not important
 trailing_space_regex = r' +$'
 
-# Exercise 10: Match strings that contain two tabs in a row
+# Exercise 10: Match strings that contain at least two tabs in a row
 # anywhere in the string. Contents of the string are unimportant.
 two_consecutive_tabs_regex = r'\t\t'
 
-# Exercise 11: Match strings that contain two tabs, not
+# Exercise 11: Match strings that contain at least two tabs, not
 # necessarily in a row, anywhere in the string.
 # Contents of the string are unimportant.
 two_tabs_regex = r'\t.*\t'
