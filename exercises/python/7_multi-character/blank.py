@@ -32,8 +32,7 @@ playing_card_regex = r''
 hex_string_regex = r''
 
 # Exercise 32: In a log file, parse out all lines that contain
-# `ERROR` or `FATAL` (no quotes). No need to capture which one
-# (ERROR or FATAL) you found in the line.
+# `ERROR` or `FATAL` (no quotes). 
 # Example log contents:
 #
 # 2012-02-03 18:35:34 SampleClass6 [INFO] everything normal for id 577725851

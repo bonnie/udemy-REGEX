@@ -38,4 +38,4 @@ export const hexStringRegex = /^#([\dA-F]{3}){1,2}$/i;
 // 2012-02-03 18:35:34 SampleClass0 [ERROR] incorrect id  1886438513
 // 2012-02-03 18:35:34 SampleClass9 [TRACE] verbose detail for id 438634209
 // 2012-02-03 18:35:34 SampleClass8 [DEBUG] detail for id 2074121310
-export const errorFatalRegex = /^.*(?:ERROR|FATAL).*$/gm;
+export const errorFatalRegex = /^.*(ERROR|FATAL).*$/gm;

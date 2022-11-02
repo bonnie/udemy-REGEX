@@ -158,13 +158,13 @@ class EvaluateErrorFatalRegex(TestCase):
     regex_name = 'error_fatal_regex'
 
     def test_error_lines(self):
-        matches = re.findall(error_fatal_regex, log_file)
+        matches = re.finditer(error_fatal_regex, log_file)
         expected_match = [
                 '2012-02-03 18:35:34 SampleClass4 [FATAL] system problem at id 1991281254',
                 '2012-02-03 18:35:34 SampleClass0 [ERROR] incorrect id  1886438513'
         ]
         self.assertEqual(
-            matches,
+            [m.group(0) for m in matches],
             expected_match,
             should_have_matched(self.regex_name, log_file, expected_match)
         )
