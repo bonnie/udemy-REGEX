@@ -1,7 +1,7 @@
 // Write your regular expressions within the // delimiters. Example: /a+/
 
 // Exercise 1: Match the string yeehaw with 2 or more es after the y,
-// and an optional exclamation point (!) at the end
+// and a single optional exclamation point (!) at the end
 export const yeehawRegex = /yee+haw!?/;
 
 // Exercise 2: Match the word “hi”, followed by two or more s’s

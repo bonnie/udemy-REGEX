@@ -1,7 +1,7 @@
 # Write your regular expressions inside the raw string, for example: r'a+'
 
 # Exercise 1: Match the string yeehaw with 2 or more es after the y,
-# and an optional exclamation point (!) at the end
+# and a single optional exclamation point (!) at the end
 yeehaw_regex = r'yee+haw!?'
 
 # Exercise 2: Match the word “hi” (without quotes), followed by two

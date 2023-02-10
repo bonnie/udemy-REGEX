@@ -8,7 +8,7 @@ _Note: We haven't yet learned how to enforce that the entire string should matc
 
 ### 👉 Exercise 1
 
-Match the string `yeehaw` with 2 or more es after the `y`, and an optional exclamation point (`!`) at the end.
+Match the string `yeehaw` with 2 or more es after the `y`, and a single optional exclamation points (`!`) at the end.
 
 - `yeehaw` should match
 - `yeeeehaw!` should match
