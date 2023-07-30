@@ -12,7 +12,7 @@
 # talk about methods in the python-specific section at the
 # end of the course.
 
-# Exercise 35: Replace all email addresses (using the
+# Exercise 36: Replace all email addresses (using the
 # simplified pattern description from exercises in
 # character categories section) with the text
 # `<<redacted>>` (no quotes)

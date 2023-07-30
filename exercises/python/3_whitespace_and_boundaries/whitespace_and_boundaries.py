@@ -20,6 +20,6 @@ two_tabs_regex = r'\t.*\t'
 # Contents of the string are unimportant.
 start_with_three_digits_regex = r'^[0-5]{3,}'
 
-# Match entire strings that are six characters or longer and
-# don't contain the letter `E` (capital or lowercase)
+# Exercise 13: Match entire strings that are six characters or
+# longer and don't contain the letter `E` (capital or lowercase)
 strings_without_e_regex = r'^[^Ee]{6,}$'
