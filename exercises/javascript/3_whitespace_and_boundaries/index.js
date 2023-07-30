@@ -20,6 +20,6 @@ export const twoTabsRegex = /\t.*\t/;
 // Contents of the string are unimportant.
 export const startWithThreeDigitsRegex = /^[0-5]{3,}/;
 
-// Match entire strings that are six characters or longer and
-// don't contain the letter `E` (capital or lowercase)
+// Exercise 13: Match entire strings that are six characters or
+// longer and don't contain the letter `E` (capital or lowercase)
 export const stringsWithoutERegex = /^[^Ee]{6,}$/;
