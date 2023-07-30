@@ -2,7 +2,7 @@
 - Write your regular expressions inside the raw string
   - for example: `r'a+'`
 - Add **flags** in the `(?)` part at the beginning of the regex
-  - for example `'r(?m)a+'`
+  - for example `r'(?m)a+'`
   - if no flags are required, remove the (?) part.
 - **IMPORTANT NOTE ABOUT THE g FLAG IN PYTHON**
   - In python, the `g` flag does not exist, and instead the notion of one match vs all matches is designated by which method you use.
