@@ -75,7 +75,7 @@ meta_tag_regex = r'(?<=meta__)\w+'
 # Exercise 45: Find each word directly before a semicolon
 # in a block of text (but do not capture the semicolon).
 # Text may be multi-line.
-word_before_semi_regex = r'(?m)\b\w+(?=;)'
+word_before_semi_regex = r'(?m)\w+(?=;)'
 
 # Exercise 46: Given a list of file names, capture files
 # that contain `py` (without quotes) but NOT at the end of

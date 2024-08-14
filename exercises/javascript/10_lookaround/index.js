@@ -61,7 +61,7 @@ export const metaTagRegex = /(?<=meta__)\w+/g;
 // Exercise 45: Find each word directly before a semicolon
 // in a block of text (but do not capture the semicolon).
 // Text may be multi-line.
-export const wordBeforeSemiRegex = /\b\w+(?=;)/mg;
+export const wordBeforeSemiRegex = /\w+(?=;)/gm;
 
 // Exercise 46: Given a list of file names, capture files
 // that contain `py` (without quotes) but NOT at the end of
@@ -77,4 +77,4 @@ export const wordBeforeSemiRegex = /\b\w+(?=;)/mg;
 // pyrite.go
 //
 // Output: happy.js, pyrite.go
-export const nonPyfileRegex = /.*py.*(?<!py)$/mg;
+export const nonPyfileRegex = /.*py.*(?<!py)$/gm;
