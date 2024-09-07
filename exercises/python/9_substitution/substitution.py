@@ -37,7 +37,7 @@ html_tag_replacement = r''
 # Exercise 38: Substitute any multiple whitespace
 # characters (including newlines) with a single
 # space character
-multiple_whitespace_regex = r'(?s)\s{2,}'
+multiple_whitespace_regex = r'\s{2,}'
 multiple_whitespace_replacement = r' '
 
 

@@ -32,7 +32,7 @@ export const htmlTagReplacement = "";
 // Exercise 38: Substitute any multiple whitespace
 // characters (including newlines) with a single
 // space character
-export const multipleWhitespaceRegex = /\s{2,}/gs;
+export const multipleWhitespaceRegex = /\s{2,}/g;
 export const multipleWhitespaceReplacement = " ";
 
 // Exercise 39: Strip off any whitespace characters
